@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  width: 825px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: block;
+  
+}
+
+article {
+  border: 5px solid black;
+  position: relative;
+}
+
+.product-title {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #777;
+  padding: 10px 0;
+}
+
+.price {
+  font-size: 25px;
+  display: inline;
+  float:left
+}
+
+.shipping {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: bold;
+  float: right;
+  padding-top: 8.4px;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+}
+
+.more-info {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.more-info:link,
+.more-info:visited {
+  color: black;
+
+}
+
+.more-info:hover {
+  text-decoration: none;
+}
+
+.details-title {
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.details-list {
+  list-style: square;
+  margin-left: 20px;
+  line-height: 2;
+}
+
+.add-cart {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+
+.add-cart:hover {
+  background-color: white;
+  color: black;
+  border-top: 5px solid black;
+}
+
+span {
+  position: absolute;
+  top: -17px;
+  left: -34px;
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+.colors {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#black {
+  background-color: black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#red {
+  background-color: red;
+}
+
+#orange {
+  background-color: orange;
+}
+
+#green {
+  background-color: green;
+}
+
+#brown {
+  background-color: brown;
+}
+
+.container-1 {
+  width: 240px;
+  margin-right: 40px;
+  display: inline;
+  float: left;
+
+}
+
+.container-2 {
+  width: 250px;
+  height: 250px;
+  margin-right: 40px;
+  display: block;
+  float: left;
+  padding-top: 15px;
+
+}
+
+.container-3 {
+  width: 250px;
+  height: 250px;
+  display: inline;
+  
+
+}
