@@ -11,6 +11,7 @@
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
+  position: relative;
 }
 
 .logo {
@@ -25,7 +26,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -56,7 +57,6 @@
   background-color: #cf711f;
 }
 
-
 /* MOBILE */
 .btn-mobile-nav {
   border: none;
@@ -84,18 +84,6 @@
   background-color: #fdf2e9;
   padding: 4.8rem 0 9.6rem 0;
 }
-/* 
-@media(max-width:600px) {
-  .section-hero {
-    border: 20px dotted blue;
-  }
-}
-
-@media(max-width:1200px) {
-  .section-hero {
-    background-color: orangered;
-  }
-} */
 
 .hero {
   max-width: 130rem;
@@ -359,7 +347,7 @@
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 1.6rem;
-} 
+}
 
 .testimonial-name {
   font-size: 1.6rem;
@@ -395,26 +383,26 @@
   padding: 9.6rem 0;
 }
 
-.princing-plan {
+.pricing-plan {
   border-radius: 11px;
 
   width: 75%;
 }
 
-.princing-plan--starter {
+.pricing-plan--starter {
   justify-self: end;
   border: 2px solid #fdf2e9;
   padding: 4.6rem;
 }
 
-.princing-plan--complete {
+.pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
 
-.princing-plan--complete::after {
+.pricing-plan--complete::after {
   content: "Best value";
   position: absolute;
   top: 6%;
@@ -509,6 +497,7 @@
 
 .cta {
   display: grid;
+  /* 2/3 = 66.6% + 1/3 = 33.3% */
   grid-template-columns: 2fr 1fr;
   /* background-color: #e67e22; */
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
@@ -571,10 +560,6 @@
   background-color: #fdf2e9;
   border-radius: 9px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-}
-
-.cta-form select {
-  cursor: pointer;
 }
 
 .cta-form input::placeholder {
